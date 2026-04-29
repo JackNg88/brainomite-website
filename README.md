@@ -1,1 +1,139 @@
-# brainomite-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainomite | PhD Cognitive Enhancement</title>
+    <style>
+        :root {
+            --primary: #4a5dff;
+            --secondary: #10b981;
+            --dark: #0f172a;
+            --light-bg: #f8fafc;
+            --border: #e2e8f0;
+            --text: #1e293b;
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--light-bg); color: var(--text); line-height: 1.6; margin: 0; }
+        header { background: var(--dark); color: white; padding: 80px 20px; text-align: center; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+        section { margin-bottom: 60px; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1, h2, h3 { color: var(--dark); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .stat-card { text-align: center; padding: 20px; background: #eff6ff; border-radius: 8px; border: 1px solid #bfdbfe; }
+        .stat-val { font-size: 2.5rem; font-weight: 800; color: var(--primary); display: block; }
+        .badge { display: inline-block; padding: 4px 12px; border-radius: 15px; font-size: 0.8rem; font-weight: 600; margin-bottom: 10px; }
+        .badge-blue { background: #dbeafe; color: var(--primary); }
+        .badge-green { background: #dcfce7; color: var(--secondary); }
+        .flow-step { border-left: 3px solid var(--primary); padding-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); }
+        .footer { text-align: center; padding: 40px; color: #64748b; border-top: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+
+<header>
+    <p style="letter-spacing: 3px; font-weight: 600; color: var(--secondary);">THINK BEYOND LIMITS</p>
+    <h1 style="font-size: 3.5rem; margin: 10px 0;">BRAINOMITE</h1>
+    <p>www.brainomite.com [cite: 3]</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>The Vision [cite: 5-6]</h2>
+        <p style="font-size: 1.2rem;">A cognitive-enhancement drug engineered from <strong>Nobel laureate brain cell biology</strong>. Designed to amplify academic output and make <strong>five-year PhD degrees achievable in two</strong>. </p>
+    </section>
+
+    <section>
+        <h2>Core Technology & Team [cite: 10-22]</h2>
+        <div class="grid">
+            <div>
+                <h3>Team Expertise</h3>
+                <ul>
+                    <li>Proteomics & Chemical Synthesis [cite: 21]</li>
+                    <li>Drug Modeling & Multiomics [cite: 21, 22]</li>
+                    <li>Administrative & Regulatory (FDA Approval) [cite: 21]</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Research Workflow</h3>
+                <div class="flow-step"><strong>Cohort:</strong> 42 Laureates vs. 42 Controls [cite: 7-9]</div>
+                <div class="flow-step"><strong>Processing:</strong> PBMC Isolation & Yamanaka Reprogramming (iPSC) [cite: 10-12]</div>
+                <div class="flow-step"><strong>Culture:</strong> 3D Brain Organoid maturation (2-12 weeks) [cite: 13-14, 124]</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Pipeline [cite: 112-141]</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <h4>Collection</h4>
+                <p>Somatic cells (Skin/Blood/Urine) via Biopsy or centrifugation. [cite: 114-116]</p>
+            </div>
+            <div class="stat-card">
+                <h4>Reprogramming</h4>
+                <p>Using OCT4, SOX2, KLF4, MYC factors via Lentivirus/mRNA. [cite: 117-118]</p>
+            </div>
+            <div class="stat-card">
+                <h4>Quality Control</h4>
+                <p>Tumorigenicity, Genetic stability, and Sterility testing. [cite: 131-132]</p>
+            </div>
+        </div>
+        <p style="margin-top:20px;"><strong>Applications:</strong> Direct transplant, Drug screening, and Disease modeling. [cite: 137-139]</p>
+    </section>
+
+    <section>
+        <h2>Evidence & Results [cite: 34-39, 52-62]</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <span class="badge badge-blue">PRE-CLINICAL</span>
+                <h3>Barnes Maze (n=48)</h3>
+                <span class="stat-val">-38%</span>
+                <p>Fewer trials to solve with zero motor effects. [cite: 38-42]</p>
+            </div>
+            <div class="stat-card">
+                <span class="badge badge-green">CLINICAL TRIAL</span>
+                <h3>PhD Survival Curve</h3>
+                <span class="stat-val">100%</span>
+                <p>Drug Arm probability vs. declining Control Arm. [cite: 52-54, 76]</p>
+            </div>
+        </div>
+        <div style="margin-top: 30px; padding: 20px; background: #f1f5f9; border-radius: 8px;">
+            <h3>Academic Impact [cite: 58-62, 104]</h3>
+            <p>Significant anti-correlation (<strong>r = -0.71, p < 0.001</strong>) between PhD duration and Cumulative Publication Impact Factor (IF). </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Strategic Roadmap [cite: 43-46, 98-109]</h2>
+        <table>
+            <thead>
+                <tr><th>Phase</th><th>Timeline</th><th>Milestones</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Regulatory</td><td>Q3 2026 - Q4 2027</td><td>FDA (US) & EMA (EU) Submission [cite: 43-46]</td></tr>
+                <tr><td>Scale-up</td><td>Q2 2028</td><td>Manufacturing & Quality Pricing [cite: 98-99]</td></tr>
+                <tr><td>Launch</td><td>Q3 2029</td><td>Distribution & Product Launch [cite: 105-109]</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section style="text-align: center;">
+        <h2>Academic Excellence [cite: 145-149]</h2>
+        <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div><strong>Cognitive Psychology</strong> [cite: 147]</div>
+            <div><strong>Neuroscience</strong> [cite: 148]</div>
+            <div><strong>Study Plan Focus</strong> [cite: 144]</div>
+        </div>
+    </section>
+
+</div>
+
+<div class="footer">
+    <p>© 2026 Brainomite - Fuel for Academic Success [cite: 142]</p>
+</div>
+
+</body>
+</html>
